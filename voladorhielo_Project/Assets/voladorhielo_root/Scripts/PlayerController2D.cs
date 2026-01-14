@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class PlayerController2D : MonoBehaviour
 {
@@ -25,6 +26,8 @@ public class PlayerController2D : MonoBehaviour
     Vector2 moveInput; //Referencia al valor pulsado de las teclas de movimiento
     bool canAttack; //Comprobador para determinar si se puede atacar
 
+    [Header("Death configuration")]
+    [SerializeField] Transform RespawnPoint;
     #endregion
 
     private void Awake()
@@ -37,7 +40,7 @@ public class PlayerController2D : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -56,6 +59,25 @@ public class PlayerController2D : MonoBehaviour
     {
         Movement();
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Detectors"))
+        {
+            Respawn();
+        }
+
+        if (collision.gameObject.CompareTag("RespawnPoint"))
+        {
+            RespawnPoint = collision.transform;
+        }
+    }
+
+    void Respawn()
+    {
+        playerRb.position = RespawnPoint.position;
+    }
+   
 
     void Movement()
     {

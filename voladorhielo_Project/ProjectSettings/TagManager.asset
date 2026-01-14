@@ -6,6 +6,8 @@ TagManager:
   tags:
   - BadPick
   - CamConfiner
+  - Detectors
+  - RespawnPoint
   layers:
   - Default
   - TransparentFX
