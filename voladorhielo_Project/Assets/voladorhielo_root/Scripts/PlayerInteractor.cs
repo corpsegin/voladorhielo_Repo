@@ -1,7 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class PlayerInteractor : MonoBehaviour
 {
     [SerializeField] int loseHealth = 10;
     private void OnTriggerEnter2D(Collider2D collision)
