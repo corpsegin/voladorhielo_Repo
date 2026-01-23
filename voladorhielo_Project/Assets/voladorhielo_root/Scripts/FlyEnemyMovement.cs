@@ -8,6 +8,11 @@ public class FlyEnemyMovement : MonoBehaviour
 
     private bool isFacingRigth = true;
 
+    [SerializeField] float knockbackForce = 5f;
+    [SerializeField] float knockbackDuration = 0.3f;
+    [SerializeField] private bool isKnockbacked;
+    [SerializeField] private float knockbackTimer;
+
     void Update()
     {
         if (Vector2.Distance(transform.position, player.position) < minDistance)
@@ -16,16 +21,11 @@ public class FlyEnemyMovement : MonoBehaviour
         }
         else
         {
-            Attack();
+            //Codigo de ataque
         }
 
         bool isPlayerRigth = transform.position.x < player.transform.position.x;
         Flip(isPlayerRigth);
-    }
-
-    private void Attack()
-    {
-        Debug.Log("Atacar");
     }
 
     private void Flip (bool isPlayerRigth)
@@ -38,4 +38,13 @@ public class FlyEnemyMovement : MonoBehaviour
             transform.localScale = scale;
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            //(collision.transform);
+        }
+    }
+
 }
