@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2462434221213860953}
   - component: {fileID: 9107111166193039105}
   - component: {fileID: 4355362333765370518}
-  - component: {fileID: 1583082846149799528}
   m_Layer: 0
   m_Name: Playerprueba
   m_TagString: Player
@@ -34,7 +33,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7102607023272699694}
-  - {fileID: 1895681745114794463}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2462434221213860953
@@ -169,38 +167,6 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: a7c7bf29-1a5f-46f4-8f52-0c49e18438aa
     m_ActionName: 'Gameplay/Shoot[/Keyboard/r]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4355362333765370518}
-        m_TargetAssemblyTypeName: PlayerController2D, Assembly-CSharp
-        m_MethodName: OnCrouch
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 7a2878f5-494d-400e-ada9-d4994156ba02
-    m_ActionName: 'Gameplay/Crouch[/Keyboard/leftShift]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4355362333765370518}
-        m_TargetAssemblyTypeName: PlayerController2D, Assembly-CSharp
-        m_MethodName: OnInteract
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: e2cc7926-7330-49f0-a3c7-111d38b2987e
-    m_ActionName: 'Gameplay/Interact[/Keyboard/e]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay
@@ -229,24 +195,6 @@ MonoBehaviour:
     m_Bits: 8
   shootPosition: {fileID: 0}
   projectile: {fileID: 0}
-  headCheck: {fileID: 0}
-  headCheckRadius: 0.1
-  detectorLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  RespawnPoint: {fileID: 0}
---- !u!114 &1583082846149799528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4105432321610276201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be8ae5bc41385fd4a96ebe46e2bafbc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8143777135547917828
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,37 +221,6 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1.032, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2634185102074131149}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8406697751550852065
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1895681745114794463}
-  m_Layer: 0
-  m_Name: HeadCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1895681745114794463
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8406697751550852065}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.014, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
