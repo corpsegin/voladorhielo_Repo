@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 688ec7b9d563e6646b36d068c2cf6277
+guid: 32d965ad943c0ad41b0774e80b0583a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5364233727520946129
-    second: Fondo2_0
-  - first:
-      213: -2876497137410341497
-    second: Fondo2_1
+      213: -8215885361158396507
+    second: CaveBackground_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,35 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fondo2_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 160
-        width: 640
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f28c1f288d96e85b0800000000000000
-      internalID: -5364233727520946129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fondo2_1
+      name: CaveBackground_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 640
-        height: 164
+        height: 360
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7858a370811a418d0800000000000000
-      internalID: -2876497137410341497
+      spriteID: 5a562dc2bcf4bfd80800000000000000
+      internalID: -8215885361158396507
       vertices: []
       indices: 
       edges: []
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fondo2_0: -5364233727520946129
-      Fondo2_1: -2876497137410341497
+      CaveBackground_0: -8215885361158396507
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
