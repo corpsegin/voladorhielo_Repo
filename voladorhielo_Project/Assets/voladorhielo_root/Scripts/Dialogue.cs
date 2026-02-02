@@ -11,8 +11,22 @@ public class Dialogue : MonoBehaviour
     [SerializeField, TextArea(4, 6)] string[] dialogueLines;
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] TMP_Text dialogueText;
-    
-    
+
+    [Header("Character animation")]
+    [SerializeField] Animator characterAnimator;
+    [SerializeField] DialogueAction[] dialogueAction;
+
+    private bool actionPlayed;
+
+    [System.Serializable]
+    public class DialogueAction
+    {
+        public int dialogueLine;
+        public string animationTrigger;
+        [HideInInspector] public bool played;
+    }
+
+
     public void Interact()
     {
         if (!didDialogueStart)
@@ -37,6 +51,8 @@ public class Dialogue : MonoBehaviour
     {
         lineIndex++;
 
+        CheckDialogueAction();
+
         if (lineIndex >= dialogueLines.Length)
         {
             dialoguePanel.SetActive(false);
@@ -52,6 +68,20 @@ public class Dialogue : MonoBehaviour
 
         StopAllCoroutines();
         StartCoroutine(ShowLine());
+    }
+
+    void CheckDialogueAction()
+    {
+        if (!CompareTag("Will")) return;
+
+        foreach (DialogueAction action in dialogueAction)
+        {
+            if (lineIndex == action.dialogueLine && !action.played)
+            {
+                characterAnimator.SetTrigger(action.animationTrigger);
+                action.played = true;
+            }
+        }
     }
 
     IEnumerator ShowLine()
