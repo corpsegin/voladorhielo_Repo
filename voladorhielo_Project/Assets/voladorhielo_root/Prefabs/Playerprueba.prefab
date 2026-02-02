@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9107111166193039105}
   - component: {fileID: 4355362333765370518}
   - component: {fileID: 1583082846149799528}
+  - component: {fileID: 2172913500468386249}
   m_Layer: 0
   m_Name: Playerprueba
   m_TagString: Player
@@ -235,6 +236,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   RespawnPoint: {fileID: 0}
+  stairs: 0
+  key: 0
+  neededstairs: 0
+  neededkey: 0
 --- !u!114 &1583082846149799528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,6 +252,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be8ae5bc41385fd4a96ebe46e2bafbc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2172913500468386249
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4105432321610276201}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9c0f51b2ee6e74a4188c24816a455b04, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8143777135547917828
 GameObject:
   m_ObjectHideFlags: 0
