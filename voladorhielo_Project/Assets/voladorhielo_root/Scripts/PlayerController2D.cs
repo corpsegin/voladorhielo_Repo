@@ -133,6 +133,7 @@ public class PlayerController2D : MonoBehaviour
 
     void Movement()
     {
+        AudioManager.Instance.PlaySFX(0);
         playerRb.linearVelocity = new Vector2(moveInput.x * speed, playerRb.linearVelocity.y);
     }
 
@@ -147,11 +148,12 @@ public class PlayerController2D : MonoBehaviour
     void Jump()
     {
         playerRb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
-        AudioManager.Instance.PlaySFX(3);
+        AudioManager.Instance.PlaySFX(4);
     }
 
     IEnumerator Attack()
     {
+        AudioManager.Instance.PlaySFX(5);
         anim.SetTrigger("Attack");
         canAttack = false;
         float actualSpeed = speed;
