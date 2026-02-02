@@ -9,7 +9,8 @@ TagManager:
   - Detectors
   - RespawnPoint
   - Stair
-  - PickUp
+  - Will
+  - Attack
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - Ground
   - Water
   - UI
-  - Detector
-  - 
+  - Fall
+  - FakeGround
   - 
   - 
   - 
@@ -46,6 +47,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3750403643
     locked: 0
   m_RenderingLayers:
   - Default

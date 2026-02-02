@@ -73,10 +73,11 @@ public class PlayerController2D : MonoBehaviour
         //Lógica de la detección del suelo
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         //Lógica de ejecución de animaciones
-        //AnimationManagement();
+        AnimationManagement();
         //Ejecución de la lógica del Flip
         if (moveInput.x > 0 && !isFacingRight) Flip();
         if (moveInput.x < 0 && isFacingRight) Flip();
+         
     }
 
     private void FixedUpdate()
@@ -146,12 +147,12 @@ public class PlayerController2D : MonoBehaviour
     void Jump()
     {
         playerRb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
-        //AudioManager.Instance.PlaySFX(3);
+        AudioManager.Instance.PlaySFX(3);
     }
 
     IEnumerator Attack()
     {
-        anim.SetTrigger("Attacking");
+        anim.SetTrigger("Attack");
         canAttack = false;
         float actualSpeed = speed;
         speed = 0;
@@ -189,9 +190,12 @@ public class PlayerController2D : MonoBehaviour
     void AnimationManagement()
     {
         //Gestión del cambio de animaciones: idle-jump-walk
-        anim.SetBool("Jumping", !isGrounded);
-        if (moveInput.x != 0) anim.SetBool("Running", true);
-        else anim.SetBool("Running", false);
+        anim.SetBool("jump", !isGrounded);
+        // if (moveInput.x != 0) anim.SetBool("walk", true);
+        anim.SetBool("walk", moveInput.x != 0 && isGrounded);
+        anim.SetBool("idle", moveInput.x == 0 && isGrounded);
+        anim.SetBool("crouch", isCrouching);
+        anim.SetBool("attack", !canAttack);
     }
 
     void ShootMagic()

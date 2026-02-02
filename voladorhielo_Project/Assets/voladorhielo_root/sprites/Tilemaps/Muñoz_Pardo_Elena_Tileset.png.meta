@@ -1,0 +1,1565 @@
+fileFormatVersion: 2
+guid: 59622e44b43b6de4aa0293f74c467f46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1693558926457570052
+    second: "Mu\xF1oz_Pardo_Elena_Tileset_0"
+  - first:
+      213: -1302882662011468659
+    second: "Mu\xF1oz_Pardo_Elena_Tileset_1"
+  - first:
+      213: -2880202360726832847
+    second: "Mu\xF1oz_Pardo_Elena_Tileset_2"
+  - first:
+      213: -5121738204354440954
+    second: "Mu\xF1oz_Pardo_Elena_Tileset_3"
+  - first:
+      213: 4550470000012739423
+    second: "Mu\xF1oz_Pardo_Elena_Tileset_4"
+  - first:
+      213: -4272995308668829038
+    second: "Mu\xF1oz_Pardo_Elena_Tileset_5"
+  - first:
+      213: -5958961059588844876
+    second: "Mu\xF1oz_Pardo_Elena_Tileset_6"
+  - first:
+      213: -2923196800997859425
+    second: "Mu\xF1oz_Pardo_Elena_Tileset_7"
+  - first:
+      213: -8965131106425659810
+    second: "Mu\xF1oz_Pardo_Elena_Tileset_8"
+  - first:
+      213: -1879729649539032697
+    second: "Mu\xF1oz_Pardo_Elena_Tileset_9"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_0"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40302b9eedab08710800000000000000
+      internalID: 1693558926457570052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_1"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d848ac23f1b3bede0800000000000000
+      internalID: -1302882662011468659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_2"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139b2af76377708d0800000000000000
+      internalID: -2880202360726832847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_3"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60118e04d3eebe8b0800000000000000
+      internalID: -5121738204354440954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_4"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53c4d70b54862f30800000000000000
+      internalID: 4550470000012739423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_5"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 468
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29242e3f76543b4c0800000000000000
+      internalID: -4272995308668829038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_6"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b252dcfc748d4da0800000000000000
+      internalID: -5958961059588844876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_7"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fd6fb4ff7be67d0800000000000000
+      internalID: -2923196800997859425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_8"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e91bc02c4759380800000000000000
+      internalID: -8965131106425659810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_9"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789d47dc7dbd9e5e0800000000000000
+      internalID: -1879729649539032697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_10"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5a5fbed29904043bdce0173b0ae327
+      internalID: 479894799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_11"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8793e328716226f4c83cc220964e091d
+      internalID: 1049792618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_12"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2660a366590c848ac8e739bba0c0ce
+      internalID: 59114342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_13"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e41e3a4c04437745951cb8593479825
+      internalID: 756030192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_14"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9579671c33f9040a7c581123726ddb
+      internalID: 1628905311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_15"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a270d14823f0384a934ccdd7027b20f
+      internalID: -1006795954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_16"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caaf46b19ae96fa438a4f419ee63c89e
+      internalID: 1689017604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_17"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614c76cf3f641cb4fab02b6ac69cd32e
+      internalID: 2051069826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_18"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cdc4b64f3baeb46910fb1792cf42e5
+      internalID: -589731685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_19"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3b2b46435fd9240a9aefc1c305df60
+      internalID: -109401703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_20"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb83ef1161b37fb459a893cc43db4586
+      internalID: 29869717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_21"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032d1e089a31d7949804db7e94544341
+      internalID: 1091675349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_22"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e374b774960bc044af7185bbdb48a6f
+      internalID: 1679357002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_23"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e306b97ad6b92f04b9fd15a83f9eb6e1
+      internalID: 260001079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_24"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72014d8e1ff26c54faa4283a807b6004
+      internalID: 504184897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_25"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c71e3bb7bc68e24fafe871208a528b6
+      internalID: 1834522419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_26"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c35adbcea7a7345ad1479bbacbb9be
+      internalID: 78509587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_27"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 340
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d1d30e6b05285439336c70b639212e
+      internalID: 1905135218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_28"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c589ebf9a0dfb408585a912c05ad00
+      internalID: 1957756755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_29"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82c1cddf3140aa43b4d05e91af8625b
+      internalID: -478780346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_30"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625c99a4fb8be86489adace91f9b6e33
+      internalID: 1536316464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_31"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4f315d7abb3404d8b303c81b93fb07
+      internalID: 1537861662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_32"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a968b0b94da21474c8c008b051ef9d54
+      internalID: -1082546737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_33"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb7ffe40db3cc8418861edc599afd79
+      internalID: -532843009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_34"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d2b1776f9ef014896ebd41babd5cc0
+      internalID: -1944764930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_35"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528859301c546f547808515be1455613
+      internalID: -1682683163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_36"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 276
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e608a88bedf0a4d9d5c7683d7d04aa
+      internalID: 2129162850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_37"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca44a735f71f6d145aeb06a6b1a2ea50
+      internalID: -1516927551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_38"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f6a29323f1bcd46a7150058f877815
+      internalID: 1053986593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_39"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a10dc8fc47938e4f9c946dfca399387
+      internalID: 301602536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_40"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d612b4e6371b44db5c95262d0d7d08
+      internalID: -1866952601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_41"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd67b6a40f3ad4342a86187e4c9b6488
+      internalID: -1401482011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_42"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ed653fc3d12ca44a4c8e40ce84ba41
+      internalID: 1066986613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_43"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4c8d65c317c614fad40ece638a69b3
+      internalID: -855520673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_44"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d58738cb5139424ea79540be92ac7a5
+      internalID: -595034051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_45"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9af9de4b922ef459ae5063ac92fbbe
+      internalID: 729196438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_46"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada04c183d9f67144bf7d11d08b0c445
+      internalID: 89004709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_47"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60565bc0892c8da4baf572b0dc1470dd
+      internalID: 1590055100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_48"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a53c36904dc17478ecd5d55caf3ba0
+      internalID: 1481765438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_49"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bc2e74ea4fefe4186bf1cb3ca96931
+      internalID: -216222108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_50"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c3d68e976b5444eb843d4b4daf95e4
+      internalID: -812575945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_51"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc37518483b2e9458970feee21d07e9
+      internalID: -1526390936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_52"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e003041b6952dd439c2949d43225a66
+      internalID: 1804409456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_53"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c589b01b6e44546961b30d4b72cb23
+      internalID: 1337834855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_54"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f02f4de5148be48b92e8b79073b160
+      internalID: 1694367000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_55"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 148
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfab65fd41d1f8459d2e356e950b2a2
+      internalID: -103179720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_56"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57457bd3f416814daa23be6cd4480b5
+      internalID: -420526977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_57"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90dd2c9932d0eb4f8596368110f8400
+      internalID: 1892035671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_58"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142dd9029a4708a4aa81fcd06edfd240
+      internalID: 240355904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_59"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0ff8c320c77c641a673af1429e3516
+      internalID: 2019779923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Mu\xF1oz_Pardo_Elena_Tileset_60"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65eb15bde2b2fd4ba2a379281097688
+      internalID: 1663799467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8d2361151f900854984047fea763e0cf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Mu\xF1oz_Pardo_Elena_Tileset_0": 1693558926457570052
+      "Mu\xF1oz_Pardo_Elena_Tileset_1": -1302882662011468659
+      "Mu\xF1oz_Pardo_Elena_Tileset_10": 479894799
+      "Mu\xF1oz_Pardo_Elena_Tileset_11": 1049792618
+      "Mu\xF1oz_Pardo_Elena_Tileset_12": 59114342
+      "Mu\xF1oz_Pardo_Elena_Tileset_13": 756030192
+      "Mu\xF1oz_Pardo_Elena_Tileset_14": 1628905311
+      "Mu\xF1oz_Pardo_Elena_Tileset_15": -1006795954
+      "Mu\xF1oz_Pardo_Elena_Tileset_16": 1689017604
+      "Mu\xF1oz_Pardo_Elena_Tileset_17": 2051069826
+      "Mu\xF1oz_Pardo_Elena_Tileset_18": -589731685
+      "Mu\xF1oz_Pardo_Elena_Tileset_19": -109401703
+      "Mu\xF1oz_Pardo_Elena_Tileset_2": -2880202360726832847
+      "Mu\xF1oz_Pardo_Elena_Tileset_20": 29869717
+      "Mu\xF1oz_Pardo_Elena_Tileset_21": 1091675349
+      "Mu\xF1oz_Pardo_Elena_Tileset_22": 1679357002
+      "Mu\xF1oz_Pardo_Elena_Tileset_23": 260001079
+      "Mu\xF1oz_Pardo_Elena_Tileset_24": 504184897
+      "Mu\xF1oz_Pardo_Elena_Tileset_25": 1834522419
+      "Mu\xF1oz_Pardo_Elena_Tileset_26": 78509587
+      "Mu\xF1oz_Pardo_Elena_Tileset_27": 1905135218
+      "Mu\xF1oz_Pardo_Elena_Tileset_28": 1957756755
+      "Mu\xF1oz_Pardo_Elena_Tileset_29": -478780346
+      "Mu\xF1oz_Pardo_Elena_Tileset_3": -5121738204354440954
+      "Mu\xF1oz_Pardo_Elena_Tileset_30": 1536316464
+      "Mu\xF1oz_Pardo_Elena_Tileset_31": 1537861662
+      "Mu\xF1oz_Pardo_Elena_Tileset_32": -1082546737
+      "Mu\xF1oz_Pardo_Elena_Tileset_33": -532843009
+      "Mu\xF1oz_Pardo_Elena_Tileset_34": -1944764930
+      "Mu\xF1oz_Pardo_Elena_Tileset_35": -1682683163
+      "Mu\xF1oz_Pardo_Elena_Tileset_36": 2129162850
+      "Mu\xF1oz_Pardo_Elena_Tileset_37": -1516927551
+      "Mu\xF1oz_Pardo_Elena_Tileset_38": 1053986593
+      "Mu\xF1oz_Pardo_Elena_Tileset_39": 301602536
+      "Mu\xF1oz_Pardo_Elena_Tileset_4": 4550470000012739423
+      "Mu\xF1oz_Pardo_Elena_Tileset_40": -1866952601
+      "Mu\xF1oz_Pardo_Elena_Tileset_41": -1401482011
+      "Mu\xF1oz_Pardo_Elena_Tileset_42": 1066986613
+      "Mu\xF1oz_Pardo_Elena_Tileset_43": -855520673
+      "Mu\xF1oz_Pardo_Elena_Tileset_44": -595034051
+      "Mu\xF1oz_Pardo_Elena_Tileset_45": 729196438
+      "Mu\xF1oz_Pardo_Elena_Tileset_46": 89004709
+      "Mu\xF1oz_Pardo_Elena_Tileset_47": 1590055100
+      "Mu\xF1oz_Pardo_Elena_Tileset_48": 1481765438
+      "Mu\xF1oz_Pardo_Elena_Tileset_49": -216222108
+      "Mu\xF1oz_Pardo_Elena_Tileset_5": -4272995308668829038
+      "Mu\xF1oz_Pardo_Elena_Tileset_50": -812575945
+      "Mu\xF1oz_Pardo_Elena_Tileset_51": -1526390936
+      "Mu\xF1oz_Pardo_Elena_Tileset_52": 1804409456
+      "Mu\xF1oz_Pardo_Elena_Tileset_53": 1337834855
+      "Mu\xF1oz_Pardo_Elena_Tileset_54": 1694367000
+      "Mu\xF1oz_Pardo_Elena_Tileset_55": -103179720
+      "Mu\xF1oz_Pardo_Elena_Tileset_56": -420526977
+      "Mu\xF1oz_Pardo_Elena_Tileset_57": 1892035671
+      "Mu\xF1oz_Pardo_Elena_Tileset_58": 240355904
+      "Mu\xF1oz_Pardo_Elena_Tileset_59": 2019779923
+      "Mu\xF1oz_Pardo_Elena_Tileset_6": -5958961059588844876
+      "Mu\xF1oz_Pardo_Elena_Tileset_60": 1663799467
+      "Mu\xF1oz_Pardo_Elena_Tileset_7": -2923196800997859425
+      "Mu\xF1oz_Pardo_Elena_Tileset_8": -8965131106425659810
+      "Mu\xF1oz_Pardo_Elena_Tileset_9": -1879729649539032697
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
