@@ -8,8 +8,9 @@ public class PickUpscript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player")) 
         {
-            
-           
+            AudioManager.Instance.PlaySFX(6);
+            GameManager.Instance.PointsUp(1);
+            gameObject.SetActive(false);    
         }
     }
 }
