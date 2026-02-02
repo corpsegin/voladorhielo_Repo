@@ -3,23 +3,25 @@ using UnityEngine;
 public class objectInteractor : MonoBehaviour
 
 {
-    [SerializeField] GameObject Object;
     [SerializeField] GameObject Attack;
     [SerializeField] int TimesInteracted;
     [SerializeField] int neededTimesInteracted;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (Collision.gameObject.CompareTag("Attack"))
+        if (collision.gameObject.CompareTag("Attack"))
         {
-
+            TimesInteracted++;
         }
+        
 
+
+        
     }
 
     void Disappear()
     {
-        if (TimesInteracted = neededTimesInteracted)
+        if (TimesInteracted >= neededTimesInteracted)
         {
             gameObject.SetActive(false);
         }
@@ -34,6 +36,6 @@ public class objectInteractor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Disappear();
     }
 }
