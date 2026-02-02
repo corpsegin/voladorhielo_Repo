@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     public float PlayerHealth;
     public float maxHealth = 100;
     public int PlayerPoints;
+    public int WinPoints;
+
     private void Awake()
     {
        if (instance == null)
@@ -37,5 +39,8 @@ public class GameManager : MonoBehaviour
 
     }
 
-
+    public void PointsUp(int gain) 
+    {
+        PlayerPoints += gain;
+    }
 }
