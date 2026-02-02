@@ -9,6 +9,7 @@ TagManager:
   - Detectors
   - RespawnPoint
   - Stair
+  - PickUp
   layers:
   - Default
   - TransparentFX
