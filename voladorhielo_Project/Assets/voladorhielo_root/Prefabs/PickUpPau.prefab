@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4392843770709984242}
   - component: {fileID: 1717894897613314926}
   - component: {fileID: 3849961330135687522}
+  - component: {fileID: 4710668528991779728}
   m_Layer: 0
   m_Name: PickUpPau
   m_TagString: PickUp
@@ -157,3 +158,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.0322083, y: 1.0402603}
   m_EdgeRadius: 0
+--- !u!114 &4710668528991779728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6076151402760348730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6874daa1df7fef8438f11f0a2990bd8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

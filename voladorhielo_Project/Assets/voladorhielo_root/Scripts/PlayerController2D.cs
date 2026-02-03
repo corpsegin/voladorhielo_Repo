@@ -133,8 +133,9 @@ public class PlayerController2D : MonoBehaviour
 
     void Movement()
     {
-        AudioManager.Instance.PlaySFX(0);
         playerRb.linearVelocity = new Vector2(moveInput.x * speed, playerRb.linearVelocity.y);
+        AudioManager.Instance.PlaySFX(0);
+       
     }
 
     void Flip()
@@ -153,8 +154,8 @@ public class PlayerController2D : MonoBehaviour
 
     IEnumerator Attack()
     {
-        AudioManager.Instance.PlaySFX(5);
         anim.SetTrigger("Attack");
+        AudioManager.Instance.PlaySFX(5);
         canAttack = false;
         float actualSpeed = speed;
         speed = 0;
