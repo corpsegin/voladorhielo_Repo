@@ -6,6 +6,9 @@ public class objectInteractor : MonoBehaviour
     [SerializeField] GameObject Attack;
     [SerializeField] int TimesInteracted;
     [SerializeField] int neededTimesInteracted;
+    [SerializeField] Animator ObjectAnimator;
+    [SerializeField] bool open;
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -19,11 +22,12 @@ public class objectInteractor : MonoBehaviour
         
     }
 
-    void Disappear()
+    void Open()
     {
-        if (TimesInteracted >= neededTimesInteracted)
+        if (!open && TimesInteracted >= neededTimesInteracted)
         {
-            gameObject.SetActive(false);
+            open = true;
+            ObjectAnimator.SetTrigger("Open");
         }
     }
 
@@ -37,6 +41,6 @@ public class objectInteractor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Disappear();
+        Open();
     }
 }
