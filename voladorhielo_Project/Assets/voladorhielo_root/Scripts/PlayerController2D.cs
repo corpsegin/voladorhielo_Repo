@@ -133,9 +133,7 @@ public class PlayerController2D : MonoBehaviour
 
     void Movement()
     {
-        playerRb.linearVelocity = new Vector2(moveInput.x * speed, playerRb.linearVelocity.y);
-        AudioManager.Instance.PlaySFX(0);
-       
+        playerRb.linearVelocity = new Vector2(moveInput.x * speed, playerRb.linearVelocity.y);       
     }
 
     void Flip()
@@ -148,14 +146,11 @@ public class PlayerController2D : MonoBehaviour
 
     void Jump()
     {
-        playerRb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
-        AudioManager.Instance.PlaySFX(4);
-    }
+        playerRb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);    }
 
     IEnumerator Attack()
     {
         anim.SetTrigger("Attack");
-        AudioManager.Instance.PlaySFX(5);
         canAttack = false;
         float actualSpeed = speed;
         speed = 0;
