@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: anim_pecera_normal
+  m_Name: anim_puertaAbriendose
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,11 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 2792224674793727019, guid: ad32e37090abbf046b16b5aa85a06540, type: 3}
+      value: {fileID: -3327730332669453650, guid: 6e899cdc272d1fa41b77211d20d13ad0, type: 3}
     - time: 0.083333336
-      value: {fileID: 1025787606844123143, guid: ad32e37090abbf046b16b5aa85a06540, type: 3}
+      value: {fileID: -750468309661124108, guid: 6e899cdc272d1fa41b77211d20d13ad0, type: 3}
     - time: 0.16666667
-      value: {fileID: -7492735746286042364, guid: ad32e37090abbf046b16b5aa85a06540, type: 3}
+      value: {fileID: 814727752, guid: 6e899cdc272d1fa41b77211d20d13ad0, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,9 +48,9 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 2792224674793727019, guid: ad32e37090abbf046b16b5aa85a06540, type: 3}
-    - {fileID: 1025787606844123143, guid: ad32e37090abbf046b16b5aa85a06540, type: 3}
-    - {fileID: -7492735746286042364, guid: ad32e37090abbf046b16b5aa85a06540, type: 3}
+    - {fileID: -3327730332669453650, guid: 6e899cdc272d1fa41b77211d20d13ad0, type: 3}
+    - {fileID: -750468309661124108, guid: 6e899cdc272d1fa41b77211d20d13ad0, type: 3}
+    - {fileID: 814727752, guid: 6e899cdc272d1fa41b77211d20d13ad0, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

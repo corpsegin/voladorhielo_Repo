@@ -13,6 +13,7 @@ TagManager:
   - Attack
   - PickUp
   - Puerta
+  - Activator
   layers:
   - Default
   - TransparentFX

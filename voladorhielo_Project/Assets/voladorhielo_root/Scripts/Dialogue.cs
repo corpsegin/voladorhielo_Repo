@@ -8,6 +8,7 @@ public class Dialogue : MonoBehaviour
     private int lineIndex;
     private float typingTime = 0.05f;
 
+    [Header("text")]
     [SerializeField, TextArea(4, 6)] string[] dialogueLines;
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] TMP_Text dialogueText;
@@ -15,6 +16,11 @@ public class Dialogue : MonoBehaviour
     [Header("Character animation")]
     [SerializeField] Animator characterAnimator;
     [SerializeField] DialogueAction[] dialogueAction;
+
+    [Header("activator settings")]
+    [SerializeField] GameObject PeceraExplosiva;
+    [SerializeField] GameObject willObject;
+    [SerializeField] float willDisappearDelay = 1f;
 
     private bool actionPlayed;
 
@@ -57,6 +63,12 @@ public class Dialogue : MonoBehaviour
         {
             dialoguePanel.SetActive(false);
             didDialogueStart = false;
+
+            if (CompareTag("Activator"))
+            {
+                PeceraExplosiva.SetActive(true);
+                StartCoroutine(ActivatePecera());
+            }
             
             if (CompareTag("Key") || CompareTag("Stair"))
             {
@@ -82,6 +94,8 @@ public class Dialogue : MonoBehaviour
                 action.played = true;
             }
         }
+
+
     }
 
     IEnumerator ShowLine()
@@ -94,4 +108,17 @@ public class Dialogue : MonoBehaviour
             yield return new WaitForSeconds(typingTime);
         }
     }
+
+    IEnumerator ActivatePecera()
+    {
+
+        yield return new WaitForSeconds(willDisappearDelay);
+
+        if (willObject != null)
+        {
+            willObject.SetActive(false);
+
+        }
+    }
+
 }
