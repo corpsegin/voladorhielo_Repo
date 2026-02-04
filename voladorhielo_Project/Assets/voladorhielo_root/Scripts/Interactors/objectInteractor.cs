@@ -8,6 +8,7 @@ public class objectInteractor : MonoBehaviour
     [SerializeField] int neededTimesInteracted;
     [SerializeField] Animator ObjectAnimator;
     [SerializeField] bool open;
+    [SerializeField] Collider2D DoorCollider;
     
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -28,6 +29,7 @@ public class objectInteractor : MonoBehaviour
         {
             open = true;
             ObjectAnimator.SetTrigger("Open");
+           DoorCollider.GetComponent<Collider2D>().enabled = false;
         }
     }
 

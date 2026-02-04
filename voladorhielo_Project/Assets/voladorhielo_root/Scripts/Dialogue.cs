@@ -19,6 +19,7 @@ public class Dialogue : MonoBehaviour
 
     [Header("activator settings")]
     [SerializeField] GameObject PeceraExplosiva;
+    [SerializeField] GameObject PeceraNormal;
     [SerializeField] GameObject willObject;
     [SerializeField] float willDisappearDelay = 1f;
 
@@ -67,6 +68,7 @@ public class Dialogue : MonoBehaviour
             if (CompareTag("Activator"))
             {
                 PeceraExplosiva.SetActive(true);
+                PeceraNormal.SetActive(false);
                 StartCoroutine(ActivatePecera());
             }
             

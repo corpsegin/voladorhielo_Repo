@@ -204,7 +204,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 84.87, y: -3.04, z: 0}
-  m_LocalScale: {x: 5.773716, y: 5.773716, z: 5.773716}
+  m_LocalScale: {x: 6.0624013, y: 6.0624013, z: 6.0624013}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -294,6 +294,7 @@ MonoBehaviour:
   neededTimesInteracted: 3
   ObjectAnimator: {fileID: 19981649}
   open: 0
+  DoorCollider: {fileID: 19981648}
 --- !u!1 &67602463
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,6 +567,7 @@ MonoBehaviour:
   characterAnimator: {fileID: 0}
   dialogueAction: []
   PeceraExplosiva: {fileID: 0}
+  PeceraNormal: {fileID: 0}
   willObject: {fileID: 0}
   willDisappearDelay: 1
 --- !u!61 &135883474
@@ -1495,6 +1497,7 @@ MonoBehaviour:
     animationTrigger: bye
     played: 0
   PeceraExplosiva: {fileID: 0}
+  PeceraNormal: {fileID: 0}
   willObject: {fileID: 0}
   willDisappearDelay: 1
 --- !u!61 &483498901
@@ -20394,6 +20397,7 @@ MonoBehaviour:
   characterAnimator: {fileID: 0}
   dialogueAction: []
   PeceraExplosiva: {fileID: 0}
+  PeceraNormal: {fileID: 0}
   willObject: {fileID: 0}
   willDisappearDelay: 1
 --- !u!4 &1556961554 stripped
@@ -22373,6 +22377,7 @@ MonoBehaviour:
     animationTrigger: 
     played: 0
   PeceraExplosiva: {fileID: 1021493463}
+  PeceraNormal: {fileID: 2015993114}
   willObject: {fileID: 483498896}
   willDisappearDelay: 1
 --- !u!61 &2081276962
