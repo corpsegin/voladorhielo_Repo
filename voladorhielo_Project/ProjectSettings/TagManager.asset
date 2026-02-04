@@ -11,6 +11,8 @@ TagManager:
   - Stair
   - Will
   - Attack
+  - PickUp
+  - Puerta
   layers:
   - Default
   - TransparentFX
