@@ -20,7 +20,7 @@ public class ColdSystem : MonoBehaviour
 
     void DecreaseCold()
     {
-        currentCold -= coldDecrease * Time.deltaTime;
+        currentCold += coldDecrease * Time.deltaTime;
         currentCold = Mathf.Clamp(currentCold, 0, maxCold);
 
         if (currentCold <= 0)

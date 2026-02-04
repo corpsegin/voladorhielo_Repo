@@ -3,32 +3,23 @@ using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
-   //declaracion singleton
-    private static AudioManager instance; //definicion de la fortaleza de datos
+    //declaracion singleton
 
-    public static AudioManager Instance
-    {
+    public static AudioManager Instance;
 
-
-
-        get
-        {
-            if (instance == null) Debug.Log("No hay Game Manager");
-            return instance;
-        }
-        //fin singleton
-
-    }
     //TODAS LAS VARIABLES DE LA FORTALEZA DEBEN SER PUBLICAS
-    public AudioSource musicSource;
-    public AudioSource SFXSource;
+    [Header("Audio Source References")]
+    [SerializeField] AudioSource musicSource;
+    [SerializeField] AudioSource SFXSource;
+
+    [Header("Audio Clip Arrays")]
     public AudioClip[] musicLibrary;
     public AudioClip[] sfxLibrary;
     private void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject);
         }
 
@@ -62,6 +53,7 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySFX(int sfxToPlay)
     {
+        Debug.Log("Sunea Sonid0");
         SFXSource.PlayOneShot(sfxLibrary[sfxToPlay]);
     }
 
@@ -74,10 +66,10 @@ public class AudioManager : MonoBehaviour
         Save();
     }
 
-    private void Load()
-    {
-        volumeSlider.value = PlayerPrefs.GetFloat("MusicVolume");
-    }
+   private void Load()
+   {
+      volumeSlider.value = PlayerPrefs.GetFloat("MusicVolume");
+   }
 
     private void Save()
     {
