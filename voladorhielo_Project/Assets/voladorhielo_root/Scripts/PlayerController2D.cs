@@ -150,7 +150,7 @@ public class PlayerController2D : MonoBehaviour
 
     IEnumerator Attack()
     {
-        anim.SetTrigger("Attack");
+        anim.SetTrigger("attack");
         canAttack = false;
         float actualSpeed = speed;
         speed = 0;
@@ -193,7 +193,7 @@ public class PlayerController2D : MonoBehaviour
         anim.SetBool("walk", moveInput.x != 0 && isGrounded);
         anim.SetBool("idle", moveInput.x == 0 && isGrounded);
         anim.SetBool("crouch", isCrouching);
-        anim.SetBool("attack", !canAttack);
+       
     }
 
     void ShootMagic()
