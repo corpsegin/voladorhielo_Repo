@@ -6,6 +6,10 @@ public class MovingPlatform2D : MonoBehaviour
     [SerializeField] Transform[] points; //Array de puntos hacia los que la plataforma se mueve
     [SerializeField] int startingPoint; //Número de punto desde el que empieza la plataforma
     [SerializeField] float speed; //Velocidad de movimiento de la plataforma
+    bool canMove = true;
+    bool isElevator;
+
+
 
     //Índice del Array de puntos que define el punto a "perseguir" de la plataforma
     int i; //i de índice
@@ -16,12 +20,19 @@ public class MovingPlatform2D : MonoBehaviour
         //Setear la posición inicial de la plataforma
         //La posición inicial es igual a startingPoint
         transform.position = points[startingPoint].position;
+
+        isElevator = gameObject.name == "elevator";
+
+        // Si es elevator, NO se mueve al empezar
+        if (isElevator)
+            canMove = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        PlatformMovement();
+        if (canMove)
+            PlatformMovement();
     }
 
     void PlatformMovement()
@@ -45,18 +56,31 @@ public class MovingPlatform2D : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            if (transform.position.y < collision.transform.position.y) 
+            if (transform.position.y < collision.transform.position.y)
             {
                 collision.transform.SetParent(transform);
             }
+
+            // Si es elevator, empieza a moverse
+            if (isElevator)
+            {
+                canMove = true;
+            }
         }
     }
+
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Player"))
         {
             collision.transform.SetParent(null);
+
+            if (isElevator)
+            {
+                canMove = false;
+            }
         }
     }
+
 }

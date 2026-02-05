@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 047ec94cbfad91c47b921c9af9ef0a9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6199649602341497756
+    second: Fondovacio1_EidenZuluaga_0
+  - first:
+      213: -1113406662765909896
+    second: Fondovacio1_EidenZuluaga_1
+  - first:
+      213: 1691311257597200914
+    second: Fondovacio1_EidenZuluaga_2
+  - first:
+      213: 164907234588313669
+    second: Fondovacio1_EidenZuluaga_3
+  - first:
+      213: 4692392831965717855
+    second: Fondovacio1_EidenZuluaga_4
+  - first:
+      213: -6655823772738353050
+    second: Fondovacio1_EidenZuluaga_5
+  - first:
+      213: 200102108687411178
+    second: Fondovacio1_EidenZuluaga_6
+  - first:
+      213: -1014167103434882076
+    second: Fondovacio1_EidenZuluaga_7
+  - first:
+      213: 4352568014351539874
+    second: Fondovacio1_EidenZuluaga_8
+  - first:
+      213: 3084559514084388060
+    second: Fondovacio1_EidenZuluaga_9
+  - first:
+      213: 589682559960820210
+    second: Fondovacio1_EidenZuluaga_10
+  - first:
+      213: 4228932917150406219
+    second: Fondovacio1_EidenZuluaga_11
+  - first:
+      213: -303473332935935387
+    second: Fondovacio1_EidenZuluaga_12
+  - first:
+      213: 5145029401326371553
+    second: Fondovacio1_EidenZuluaga_13
+  - first:
+      213: -4725157489497151316
+    second: Fondovacio1_EidenZuluaga_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 640
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4641b88a88b66f9a0800000000000000
+      internalID: -6199649602341497756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878e84f0a826c80f0800000000000000
+      internalID: -1113406662765909896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a43b9b0aeb87710800000000000000
+      internalID: 1691311257597200914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5484782914ed94200800000000000000
+      internalID: 164907234588313669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 45
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55e7e75b6abe1140800000000000000
+      internalID: 4692392831965717855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6688452fa83c1a3a0800000000000000
+      internalID: -6655823772738353050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7ae13cec7e6c200800000000000000
+      internalID: 200102108687411178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 43
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e380e88464fce1f0800000000000000
+      internalID: -1014167103434882076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_8
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae96245c8d676c30800000000000000
+      internalID: 4352568014351539874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_9
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc2d8d098e8eca20800000000000000
+      internalID: 3084559514084388060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f925bcf929fe2800800000000000000
+      internalID: 589682559960820210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_11
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46d4b1151030ba30800000000000000
+      internalID: 4228932917150406219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_12
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 141
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56abc8f8c98d9cbf0800000000000000
+      internalID: -303473332935935387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_13
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 47
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2cff02bf0d66740800000000000000
+      internalID: 5145029401326371553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondovacio1_EidenZuluaga_14
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 0
+        width: 66
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8eeba5c4edc6eb0800000000000000
+      internalID: -4725157489497151316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fondovacio1_EidenZuluaga_0: -6199649602341497756
+      Fondovacio1_EidenZuluaga_1: -1113406662765909896
+      Fondovacio1_EidenZuluaga_10: 589682559960820210
+      Fondovacio1_EidenZuluaga_11: 4228932917150406219
+      Fondovacio1_EidenZuluaga_12: -303473332935935387
+      Fondovacio1_EidenZuluaga_13: 5145029401326371553
+      Fondovacio1_EidenZuluaga_14: -4725157489497151316
+      Fondovacio1_EidenZuluaga_2: 1691311257597200914
+      Fondovacio1_EidenZuluaga_3: 164907234588313669
+      Fondovacio1_EidenZuluaga_4: 4692392831965717855
+      Fondovacio1_EidenZuluaga_5: -6655823772738353050
+      Fondovacio1_EidenZuluaga_6: 200102108687411178
+      Fondovacio1_EidenZuluaga_7: -1014167103434882076
+      Fondovacio1_EidenZuluaga_8: 4352568014351539874
+      Fondovacio1_EidenZuluaga_9: 3084559514084388060
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
