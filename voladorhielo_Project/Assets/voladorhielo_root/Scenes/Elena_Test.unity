@@ -832,6 +832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlyEnemy2
       objectReference: {fileID: 0}
+    - target: {fileID: 7937393113623411834, guid: 69390ec6fad9fd5438417835418264a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8297251685683382034, guid: 69390ec6fad9fd5438417835418264a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.33
@@ -2215,7 +2219,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.61682, y: 2.31026, z: -10}
+  m_LocalPosition: {x: 21.13, y: 20.43, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4002,28 +4006,15 @@ GameObject:
   m_Component:
   - component: {fileID: 1008882258}
   - component: {fileID: 1008882257}
-  - component: {fileID: 1008882256}
   - component: {fileID: 1008882259}
+  - component: {fileID: 1008882260}
   m_Layer: 0
   m_Name: FakeGround_0
-  m_TagString: PickUp
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1008882256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1008882255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6874daa1df7fef8438f11f0a2990bd8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PointSum: 0
 --- !u!212 &1008882257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4140,6 +4131,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.92, y: 0.64}
   m_EdgeRadius: 0
+--- !u!114 &1008882260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008882255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ece485457eefb7e418409fd52c12f09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1105084774 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7937393113623411834, guid: 69390ec6fad9fd5438417835418264a1, type: 3}
@@ -5328,7 +5331,7 @@ Transform:
   m_GameObject: {fileID: 1535386275}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.16, y: 2.31, z: -10}
+  m_LocalPosition: {x: 21.13, y: 20.43, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5625,6 +5628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlyEnemy6
       objectReference: {fileID: 0}
+    - target: {fileID: 7937393113623411834, guid: 69390ec6fad9fd5438417835418264a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8297251685683382034, guid: 69390ec6fad9fd5438417835418264a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.32
@@ -5685,6 +5692,10 @@ PrefabInstance:
     - target: {fileID: 4628297010489829168, guid: f64bcf129922119439e90ad0a52d980a, type: 3}
       propertyPath: m_Name
       value: WalkEnemy4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628297010489829168, guid: f64bcf129922119439e90ad0a52d980a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5203240617078785304, guid: f64bcf129922119439e90ad0a52d980a, type: 3}
       propertyPath: m_LocalScale.x
@@ -6082,11 +6093,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5001914743997074769, guid: 4fe2bf65f377ea44690275c2a9b3bad0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45.16
+      value: 21.13
       objectReference: {fileID: 0}
     - target: {fileID: 5001914743997074769, guid: 4fe2bf65f377ea44690275c2a9b3bad0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.31
+      value: 20.43
       objectReference: {fileID: 0}
     - target: {fileID: 5001914743997074769, guid: 4fe2bf65f377ea44690275c2a9b3bad0, type: 3}
       propertyPath: m_LocalPosition.z
