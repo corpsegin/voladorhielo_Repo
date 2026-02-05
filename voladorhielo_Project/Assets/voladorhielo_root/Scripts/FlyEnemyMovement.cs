@@ -5,13 +5,13 @@ public class FlyEnemyMovement : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float minDistance;
     [SerializeField] private Transform player;
-
+    [SerializeField] private int health = 1;
+    private Vector2 startPosition;
     private bool isFacingRigth = true;
-
-    [SerializeField] float knockbackForce = 5f;
-    [SerializeField] float knockbackDuration = 0.3f;
-    [SerializeField] private bool isKnockbacked;
-    [SerializeField] private float knockbackTimer;
+    void Start()
+    {
+        startPosition = transform.position;
+    }
 
     void Update()
     {
@@ -21,12 +21,13 @@ public class FlyEnemyMovement : MonoBehaviour
         }
         else
         {
-            //Codigo de ataque
+            transform.position = Vector2.MoveTowards(transform.position, startPosition, speed * Time.deltaTime);
         }
 
         bool isPlayerRigth = transform.position.x < player.transform.position.x;
         Flip(isPlayerRigth);
     }
+
 
     private void Flip (bool isPlayerRigth)
     {
@@ -41,10 +42,25 @@ public class FlyEnemyMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("PlayerAttack"))
         {
-            //(collision.transform);
+            TakeDamage(1);
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
     }
 
 }
