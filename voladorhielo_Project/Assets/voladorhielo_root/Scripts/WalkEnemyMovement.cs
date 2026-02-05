@@ -6,6 +6,7 @@ public class WalkEnemyMovement : MonoBehaviour
     [SerializeField] int startingPoint;
     [SerializeField] float speed;
     private bool isFacingRigth = true;
+    [SerializeField] private int health = 2;
 
     int i;
     void Start()
@@ -39,5 +40,29 @@ public class WalkEnemyMovement : MonoBehaviour
         currentScale.x *= -1;
         transform.localScale = currentScale;
         isFacingRigth = !isFacingRigth;
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("PlayerAttack"))
+        {
+            TakeDamage(1);
+        }
+
     }
 }
