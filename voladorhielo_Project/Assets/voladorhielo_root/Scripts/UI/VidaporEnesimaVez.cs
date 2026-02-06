@@ -7,6 +7,7 @@ public class VidaporEnesimaVez : MonoBehaviour
 {
 
     public static int health = 3;
+    public static int maxHealth = 3;
     public Image[] hearts;
 
     public Sprite fullHeart;
@@ -15,15 +16,16 @@ public class VidaporEnesimaVez : MonoBehaviour
     private void Awake()
     {
         health = 3;
+        maxHealth = 3;
     }
     // Update is called once per frame
     void Update()
     {
-        foreach(Image img in hearts) 
+        foreach (Image img in hearts)
         {
-        img.sprite = ColdHeart;
+            img.sprite = ColdHeart;
         }
-        for(int i = 0; i < health; i++) 
+        for (int i = 0; i < health; i++)
         {
             hearts[i].sprite = fullHeart;
         }

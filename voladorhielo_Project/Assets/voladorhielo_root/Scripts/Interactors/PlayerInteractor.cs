@@ -25,6 +25,12 @@ public class PlayerInteractor : MonoBehaviour
             {
                 StartCoroutine(GetHurt());
             }
+
+        }
+
+        if(collision.transform.tag == "checkpoint") 
+        { 
+            VidaporEnesimaVez.health ++;
         }
     }
 
@@ -34,4 +40,5 @@ public class PlayerInteractor : MonoBehaviour
         yield return new WaitForSeconds(3);
         Physics2D.IgnoreLayerCollision(8, 9, false);
     }
+
 }
