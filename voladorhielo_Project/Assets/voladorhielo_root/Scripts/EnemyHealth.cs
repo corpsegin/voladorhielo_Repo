@@ -1,44 +1,50 @@
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class objectInteractor : MonoBehaviour
-
+public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] GameObject Attack;
     [SerializeField] int TimesInteracted;
     [SerializeField] int neededTimesInteracted;
     [SerializeField] Animator anim;
-    [SerializeField] bool open;
-    [SerializeField] Collider2D Collider;
     [SerializeField] GameObject Key;
-   
-
-
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Attack"))
         {
             TimesInteracted++;
         }
-        
+
     }
 
-    void Open()
+    void enemy()
     {
-        if (!open && TimesInteracted >= neededTimesInteracted)
+       
+
+        if (gameObject.CompareTag("Enemy"))
         {
-            open = true;
-            anim.SetTrigger("Open");
-           Collider.GetComponent<Collider2D>().enabled = false;
+
+            if (TimesInteracted >= 1)
+            {
+                anim.SetTrigger("Attacked");
+
+            }
+
+            if (TimesInteracted >= neededTimesInteracted)
+            {
+                anim.SetTrigger("Defeat");
+                anim.SetTrigger("getkey");
+                Key.SetActive(true);
+            }
+
+
         }
 
+
     }
 
-    void death()
-    {
-        
-    }
+
+
 
 
     void Start()
@@ -46,10 +52,9 @@ public class objectInteractor : MonoBehaviour
         
     }
 
-   
     // Update is called once per frame
     void Update()
     {
-        Open();
+        enemy();
     }
 }
