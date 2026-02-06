@@ -45,7 +45,9 @@ public class PlayerController2D : MonoBehaviour
     [SerializeField] int stairs = 0;
     [SerializeField] int key = 0;
     [SerializeField] int neededstairs = 0;
+    [SerializeField] GameObject completestairs;
     [SerializeField] int neededkey = 0;
+    [SerializeField] float stairsAppearDelay = 2f;
 
     #endregion
 
@@ -107,6 +109,11 @@ public class PlayerController2D : MonoBehaviour
             currentInteractable = collision.gameObject;
         }
 
+        if (collision.gameObject.CompareTag("completestairs") && stairs == neededstairs)
+        {
+            StartCoroutine(ActivateStairs());
+        }
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -124,6 +131,19 @@ public class PlayerController2D : MonoBehaviour
 
     }
 
+    
+
+    IEnumerator ActivateStairs()
+    {
+
+        yield return new WaitForSeconds(stairsAppearDelay);
+
+        if (completestairs != null)
+        {
+            completestairs.SetActive(true);
+
+        }
+    }
 
     void Respawn()
     {

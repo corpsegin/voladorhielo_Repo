@@ -15,6 +15,7 @@ TagManager:
   - Puerta
   - Activator
   - elevator
+  - completestairs
   layers:
   - Default
   - TransparentFX
