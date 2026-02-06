@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class objectInteractor : MonoBehaviour
@@ -6,10 +7,13 @@ public class objectInteractor : MonoBehaviour
     [SerializeField] GameObject Attack;
     [SerializeField] int TimesInteracted;
     [SerializeField] int neededTimesInteracted;
-    [SerializeField] Animator ObjectAnimator;
+    [SerializeField] Animator anim;
     [SerializeField] bool open;
-    [SerializeField] Collider2D DoorCollider;
-    
+    [SerializeField] Collider2D Collider;
+    [SerializeField] GameObject Key;
+   
+
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -18,9 +22,6 @@ public class objectInteractor : MonoBehaviour
             TimesInteracted++;
         }
         
-
-
-        
     }
 
     void Open()
@@ -28,9 +29,15 @@ public class objectInteractor : MonoBehaviour
         if (!open && TimesInteracted >= neededTimesInteracted)
         {
             open = true;
-            ObjectAnimator.SetTrigger("Open");
-           DoorCollider.GetComponent<Collider2D>().enabled = false;
+            anim.SetTrigger("Open");
+           Collider.GetComponent<Collider2D>().enabled = false;
         }
+
+    }
+
+    void death()
+    {
+        
     }
 
 

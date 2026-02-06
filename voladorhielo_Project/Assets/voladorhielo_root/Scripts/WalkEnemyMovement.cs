@@ -59,7 +59,7 @@ public class WalkEnemyMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("PlayerAttack"))
+        if (collision.gameObject.CompareTag("Attack"))
         {
             TakeDamage(1);
         }
