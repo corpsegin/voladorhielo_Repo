@@ -1,4 +1,8 @@
 using UnityEngine;
+using UnityEngine.InputSystem.HID;
+using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,14 +13,14 @@ public class GameManager : MonoBehaviour
     {
 
 
-        
-     get
+
+        get
         {
             if (instance == null) Debug.Log("No hay Game Manager");
-            return instance; 
+            return instance;
         }
-    //fin singleton
-    
+        //fin singleton
+
     }
     //TODAS LAS VARIABLES DE LA FORTALEZA DEBEN SER PUBLICAS
     public float PlayerHealth;
@@ -26,7 +30,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-       if (instance == null)
+        if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
@@ -39,8 +43,9 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void PointsUp(int gain) 
+    public void PointsUp(int gain)
     {
         PlayerPoints += gain;
     }
+
 }

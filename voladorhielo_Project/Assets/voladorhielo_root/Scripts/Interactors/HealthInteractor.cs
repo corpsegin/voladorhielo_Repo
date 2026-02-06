@@ -13,8 +13,7 @@ public class HealthInteractor : MonoBehaviour
            if (isPositive)
             {
                 GameManager.Instance.PlayerHealth += quantity;
-                AudioManager.Instance.PlaySFX(1);
-                gameObject.SetActive(false);
+                AudioManager.Instance.PlaySFX(5);
             }
            else 
             {
