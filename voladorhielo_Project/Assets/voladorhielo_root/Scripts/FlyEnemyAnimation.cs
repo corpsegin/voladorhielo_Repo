@@ -7,9 +7,7 @@ public class FlyEnemyAnimation : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private float minDistance;
 
-    [SerializeField] private Transform homePoint;
-
-    private bool hasAlerted = false;
+    private bool wasAlerted = false;
 
     void Start()
     {
@@ -18,23 +16,28 @@ public class FlyEnemyAnimation : MonoBehaviour
 
     void Update()
     {
-        float playerDistance = Vector2.Distance(transform.position, player.position);
-        float homeDistance = Vector2.Distance(transform.position, homePoint.position);
-        if (playerDistance < minDistance && !hasAlerted)
+        float distance = Vector2.Distance(transform.position, player.position);
+
+        // ALERTA solo una vez
+        if (distance < minDistance && !wasAlerted)
         {
             animator.SetTrigger("Alert");
-            hasAlerted = true;
+            wasAlerted = true;
         }
-        animator.SetBool("Fly", homeDistance > 0.05f);
-        if (homeDistance <= 0.05f)
+
+        // VOLANDO solo mientras persigue
+        animator.SetBool("isFlying", distance < minDistance);
+
+        // Reset cuando jugador se va
+        if (distance >= minDistance)
         {
-            hasAlerted = false;
+            wasAlerted = false;
         }
     }
 
     private void OnDestroy()
     {
         if (animator != null)
-            animator.SetTrigger("Death");
+            animator.SetTrigger("Die");
     }
 }
