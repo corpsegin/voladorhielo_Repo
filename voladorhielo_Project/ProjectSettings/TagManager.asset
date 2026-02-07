@@ -16,7 +16,8 @@ TagManager:
   - Activator
   - elevator
   - completestairs
-  - Enemy
+  - enemy
+  - checkpoint
   layers:
   - Default
   - TransparentFX
@@ -26,9 +27,9 @@ TagManager:
   - UI
   - Fall
   - FakeGround
-  - 
-  - 
-  - 
+  - iruh
+  - enemy
+  - checkpoint
   - 
   - 
   - 
