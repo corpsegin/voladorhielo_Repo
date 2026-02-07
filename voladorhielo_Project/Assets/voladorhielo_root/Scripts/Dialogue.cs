@@ -1,5 +1,6 @@
 using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Dialogue : MonoBehaviour
@@ -15,7 +16,9 @@ public class Dialogue : MonoBehaviour
 
     [Header("Character animation")]
     [SerializeField] Animator characterAnimator;
+    [SerializeField] Animator barrierAnimator;
     [SerializeField] DialogueAction[] dialogueAction;
+    public static bool interacted = false;
 
     [Header("activator settings")]
     [SerializeField] GameObject PeceraExplosiva;
@@ -25,10 +28,16 @@ public class Dialogue : MonoBehaviour
     [SerializeField] GameObject barrier;
     [SerializeField] GameObject Cajon;
     [SerializeField] GameObject CajonCorrecto;
+    [SerializeField] Collider2D attack;
+    [SerializeField] GameObject barrierCollider;
+
 
     private bool actionPlayed;
 
     [System.Serializable]
+
+
+
     public class DialogueAction
     {
         public int dialogueLine;
@@ -36,6 +45,7 @@ public class Dialogue : MonoBehaviour
         [HideInInspector] public bool played;
     }
 
+    
 
     public void Interact()
     {
@@ -74,22 +84,33 @@ public class Dialogue : MonoBehaviour
                 PeceraNormal.SetActive(false);
                 StartCoroutine(ActivatePecera());
             }
-            
+
             if (CompareTag("Key"))
             {
                 Destroy(gameObject);
                 gameObject.SetActive(false);
                 Cajon.SetActive(false);
                 CajonCorrecto.SetActive(true);
-           
+
             }
             if (CompareTag("Stair"))
             {
                 Destroy(gameObject);
             }
 
-            
-           
+            if (CompareTag("Cajon"))
+            {
+                interacted = true;
+            }
+
+            if (CompareTag("Barrier") && interacted == true)
+            {
+                barrierAnimator.SetTrigger("Open");
+                GetComponent<Collider2D>().enabled = false;
+                barrierCollider.SetActive(false);
+            }
+
+
             return;
         }
 
@@ -136,4 +157,13 @@ public class Dialogue : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        if (interacted == true)
+        {
+            Debug.Log(Dialogue.interacted);
+        }
+
+
+    }
 }

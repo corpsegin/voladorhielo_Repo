@@ -11,12 +11,15 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] Animator anim;
     [SerializeField] GameObject Key;
     [SerializeField] float wait = 3f;
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Attack"))
         {
             TimesInteracted++;
         }
+
+        enemy();
 
     }
 
@@ -59,7 +62,7 @@ public class EnemyHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemy();
+        
     }
 
     IEnumerator Activate()
