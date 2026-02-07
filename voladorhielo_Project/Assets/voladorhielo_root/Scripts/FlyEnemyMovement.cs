@@ -40,23 +40,14 @@ public class FlyEnemyMovement : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("PlayerAttack"))
-        {
-            TakeDamage(1);
-        }
-    }
-
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-
-        if (health <= 0)
+        if (collision.gameObject.CompareTag("Attack"))
         {
             Die();
         }
     }
+
 
     private void Die()
     {
