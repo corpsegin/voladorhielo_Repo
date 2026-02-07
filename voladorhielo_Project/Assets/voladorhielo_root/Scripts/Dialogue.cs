@@ -22,6 +22,9 @@ public class Dialogue : MonoBehaviour
     [SerializeField] GameObject PeceraNormal;
     [SerializeField] GameObject willObject;
     [SerializeField] float willDisappearDelay = 1f;
+    [SerializeField] GameObject barrier;
+    [SerializeField] GameObject Cajon;
+    [SerializeField] GameObject CajonCorrecto;
 
     private bool actionPlayed;
 
@@ -72,11 +75,21 @@ public class Dialogue : MonoBehaviour
                 StartCoroutine(ActivatePecera());
             }
             
-            if (CompareTag("Key") || CompareTag("Stair"))
+            if (CompareTag("Key"))
             {
                 Destroy(gameObject);
+                gameObject.SetActive(false);
+                Cajon.SetActive(false);
+                CajonCorrecto.SetActive(true);
            
             }
+            if (CompareTag("Stair"))
+            {
+                Destroy(gameObject);
+            }
+
+            
+           
             return;
         }
 

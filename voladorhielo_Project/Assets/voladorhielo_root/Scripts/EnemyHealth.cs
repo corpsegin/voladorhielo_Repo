@@ -1,4 +1,6 @@
+
 using UnityEngine;
+using System.Collections;
 using UnityEngine.InputSystem;
 
 public class EnemyHealth : MonoBehaviour
@@ -8,6 +10,7 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] int neededTimesInteracted;
     [SerializeField] Animator anim;
     [SerializeField] GameObject Key;
+    [SerializeField] float wait = 3f;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Attack"))
@@ -34,7 +37,8 @@ public class EnemyHealth : MonoBehaviour
             {
                 anim.SetTrigger("Defeat");
                 anim.SetTrigger("getkey");
-                Key.SetActive(true);
+                StartCoroutine(Activate());
+                
             }
 
 
@@ -57,4 +61,17 @@ public class EnemyHealth : MonoBehaviour
     {
         enemy();
     }
+
+    IEnumerator Activate()
+    {
+
+        yield return new WaitForSeconds(wait);
+
+        if (Key != null)
+        {
+            Key.SetActive(true);
+
+        }
+    }
+
 }

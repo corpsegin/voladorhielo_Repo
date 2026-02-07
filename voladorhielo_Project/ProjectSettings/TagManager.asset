@@ -18,6 +18,10 @@ TagManager:
   - completestairs
   - enemy
   - checkpoint
+  - Enemy
+  - Key
+  - Cajon
+  - Other
   layers:
   - Default
   - TransparentFX
