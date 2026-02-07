@@ -7,7 +7,7 @@ public class FlyEnemyMovement : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private int health = 1;
     private Vector2 startPosition;
-    private bool isFacingRigth = true;
+    private bool isFacingRigth = false;
     void Start()
     {
         startPosition = transform.position;
