@@ -24,6 +24,9 @@ public class ColdSystem2 : MonoBehaviour
     int hearts;
     bool dead = false;
 
+    float enemyDamageCooldown = 1f;
+    float lastEnemyHitTime = -10f;
+
     void Start()
     {
         hearts = fullHearts.Length;
@@ -91,15 +94,22 @@ public class ColdSystem2 : MonoBehaviour
         gameOverPanel.SetActive(true);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnColliderEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Checkpoint"))
-            nearCheckpoint = true;
+        if (other.CompareTag("Enemy"))
+        {
+            TakeDamageFromEnemy();
+        }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    void TakeDamageFromEnemy()
     {
-        if (other.CompareTag("Checkpoint"))
-            nearCheckpoint = false;
+        if (Time.time - lastEnemyHitTime >= enemyDamageCooldown && hearts > 0)
+        {
+            LoseHeart();
+            lastEnemyHitTime = Time.time;
+        }
     }
+
+
 }
