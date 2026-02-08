@@ -8,6 +8,6 @@ public class ColdLogic : MonoBehaviour
 
     void Update()
     {
-        coldBarFill.fillAmount = coldSystem.currentCold / coldSystem.maxCold;
+       //coldBarFill.fillAmount = coldSystem.currentCold / coldSystem.maxCold;
     }
 }
