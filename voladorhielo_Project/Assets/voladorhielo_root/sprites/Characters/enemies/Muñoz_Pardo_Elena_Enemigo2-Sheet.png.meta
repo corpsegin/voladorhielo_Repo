@@ -56,108 +56,6 @@ TextureImporter:
   - first:
       213: -7732892232488795684
     second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_17"
-  - first:
-      213: -3269140552738071384
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_18"
-  - first:
-      213: 5604599575575042285
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_19"
-  - first:
-      213: -4969110259450463825
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_20"
-  - first:
-      213: -3148507640657441713
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_21"
-  - first:
-      213: -6337494262927999062
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_22"
-  - first:
-      213: 3364100661426450075
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_23"
-  - first:
-      213: 2938090586111304604
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_24"
-  - first:
-      213: -4611269365097503247
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_25"
-  - first:
-      213: 3841206959936770556
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_26"
-  - first:
-      213: 1511733004679126387
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_27"
-  - first:
-      213: -3450180539739720850
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_28"
-  - first:
-      213: -3021415674703972453
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_29"
-  - first:
-      213: 95459234452808988
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_30"
-  - first:
-      213: 6260165355114535712
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_31"
-  - first:
-      213: -744652409692404978
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_32"
-  - first:
-      213: -8940225682273323289
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_33"
-  - first:
-      213: 3301394883453097061
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_34"
-  - first:
-      213: 8967753561220178895
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_35"
-  - first:
-      213: 232852859305191091
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_36"
-  - first:
-      213: -7762905951165583907
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_37"
-  - first:
-      213: -3926770839251021890
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_38"
-  - first:
-      213: -227507427357297741
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_39"
-  - first:
-      213: 1498580700562928732
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_40"
-  - first:
-      213: 1068730033546721891
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_41"
-  - first:
-      213: 7092934608004316573
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_42"
-  - first:
-      213: 5572030286274374765
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_43"
-  - first:
-      213: -4285271556435070038
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_44"
-  - first:
-      213: 2912957841194428502
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_45"
-  - first:
-      213: -5534766716897353933
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_46"
-  - first:
-      213: -5290268676128893907
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_47"
-  - first:
-      213: -5372736640722175315
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_48"
-  - first:
-      213: 7684362931920173916
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_49"
-  - first:
-      213: -6413281088201416573
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_50"
-  - first:
-      213: -2071496668928073680
-    second: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_51"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -269,10 +167,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_0"
       rect:
         serializedVersion: 2
-        x: 2
-        y: 329
-        width: 61
-        height: 41
+        x: 0
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +189,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_1"
       rect:
         serializedVersion: 2
-        x: 69
-        y: 328
-        width: 56
-        height: 44
+        x: 64
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +211,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_2"
       rect:
         serializedVersion: 2
-        x: 136
-        y: 329
-        width: 52
-        height: 45
+        x: 128
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,10 +233,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_3"
       rect:
         serializedVersion: 2
-        x: 194
-        y: 329
-        width: 61
-        height: 41
+        x: 192
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,10 +255,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_4"
       rect:
         serializedVersion: 2
-        x: 257
-        y: 327
-        width: 63
-        height: 42
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,10 +277,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_5"
       rect:
         serializedVersion: 2
-        x: 321
-        y: 328
-        width: 62
-        height: 41
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,10 +299,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_6"
       rect:
         serializedVersion: 2
-        x: 2
-        y: 265
-        width: 61
-        height: 41
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +321,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_7"
       rect:
         serializedVersion: 2
-        x: 69
-        y: 264
-        width: 56
-        height: 44
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,10 +343,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_8"
       rect:
         serializedVersion: 2
-        x: 136
-        y: 265
-        width: 52
-        height: 45
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,10 +365,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_9"
       rect:
         serializedVersion: 2
-        x: 194
-        y: 265
-        width: 61
-        height: 41
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,10 +387,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_10"
       rect:
         serializedVersion: 2
-        x: 257
-        y: 263
-        width: 63
-        height: 42
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,10 +409,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_11"
       rect:
         serializedVersion: 2
-        x: 321
-        y: 264
-        width: 62
-        height: 41
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,10 +431,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_12"
       rect:
         serializedVersion: 2
-        x: 392
-        y: 265
-        width: 52
-        height: 45
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -555,10 +453,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_13"
       rect:
         serializedVersion: 2
-        x: 452
-        y: 264
-        width: 55
-        height: 49
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -577,10 +475,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_14"
       rect:
         serializedVersion: 2
-        x: 516
-        y: 264
-        width: 58
-        height: 47
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,10 +497,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_15"
       rect:
         serializedVersion: 2
-        x: 580
-        y: 264
-        width: 57
-        height: 47
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -621,10 +519,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_16"
       rect:
         serializedVersion: 2
-        x: 644
-        y: 264
-        width: 56
-        height: 47
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,10 +541,10 @@ TextureImporter:
       name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_17"
       rect:
         serializedVersion: 2
-        x: 708
-        y: 264
-        width: 56
-        height: 47
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -661,759 +559,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_18"
-      rect:
-        serializedVersion: 2
-        x: 772
-        y: 264
-        width: 56
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ac1939ecfda1a2d0800000000000000
-      internalID: -3269140552738071384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_19"
-      rect:
-        serializedVersion: 2
-        x: 840
-        y: 265
-        width: 52
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de8947a9e9987cd40800000000000000
-      internalID: 5604599575575042285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_20"
-      rect:
-        serializedVersion: 2
-        x: 907
-        y: 268
-        width: 46
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa9b4b7eb8c2a0bb0800000000000000
-      internalID: -4969110259450463825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_21"
-      rect:
-        serializedVersion: 2
-        x: 973
-        y: 264
-        width: 39
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4c820a7bf04e44d0800000000000000
-      internalID: -3148507640657441713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_22"
-      rect:
-        serializedVersion: 2
-        x: 1040
-        y: 266
-        width: 29
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aafb91c9b82bc08a0800000000000000
-      internalID: -6337494262927999062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_23"
-      rect:
-        serializedVersion: 2
-        x: 1103
-        y: 266
-        width: 28
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9eeaf05abfafae20800000000000000
-      internalID: 3364100661426450075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_24"
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 201
-        width: 61
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c93651742d136c820800000000000000
-      internalID: 2938090586111304604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_25"
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 200
-        width: 56
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f5e8b9a1fa7100c0800000000000000
-      internalID: -4611269365097503247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_26"
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 201
-        width: 52
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf11ac3e065be4530800000000000000
-      internalID: 3841206959936770556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_27"
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 201
-        width: 61
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37d12238821caf410800000000000000
-      internalID: 1511733004679126387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_28"
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 199
-        width: 63
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6339d5341f7e10d0800000000000000
-      internalID: -3450180539739720850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_29"
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 200
-        width: 62
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b97f876b376c116d0800000000000000
-      internalID: -3021415674703972453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_30"
-      rect:
-        serializedVersion: 2
-        x: 392
-        y: 201
-        width: 52
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1527100ba3235100800000000000000
-      internalID: 95459234452808988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_31"
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 200
-        width: 55
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02b1fc2093390e650800000000000000
-      internalID: 6260165355114535712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_32"
-      rect:
-        serializedVersion: 2
-        x: 516
-        y: 200
-        width: 58
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e03452724967aa5f0800000000000000
-      internalID: -744652409692404978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_33"
-      rect:
-        serializedVersion: 2
-        x: 580
-        y: 200
-        width: 57
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e6364cfb10fde380800000000000000
-      internalID: -8940225682273323289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_34"
-      rect:
-        serializedVersion: 2
-        x: 644
-        y: 200
-        width: 56
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 564938ba729e0dd20800000000000000
-      internalID: 3301394883453097061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_35"
-      rect:
-        serializedVersion: 2
-        x: 708
-        y: 200
-        width: 56
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc3e5c9c95cd37c70800000000000000
-      internalID: 8967753561220178895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_36"
-      rect:
-        serializedVersion: 2
-        x: 772
-        y: 200
-        width: 56
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b6e1db11724b3300800000000000000
-      internalID: 232852859305191091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_37"
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 137
-        width: 61
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ddd6204ca2e944490800000000000000
-      internalID: -7762905951165583907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_38"
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 135
-        width: 63
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebf84140abe4189c0800000000000000
-      internalID: -3926770839251021890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_39"
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 136
-        width: 62
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b3fa90433bb7dcf0800000000000000
-      internalID: -227507427357297741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_40"
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 73
-        width: 52
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c543f4415370cc410800000000000000
-      internalID: 1498580700562928732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_41"
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 72
-        width: 55
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36af75a9d44e4de00800000000000000
-      internalID: 1068730033546721891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_42"
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 72
-        width: 58
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9dfb2d227a2f6260800000000000000
-      internalID: 7092934608004316573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_43"
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 72
-        width: 57
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6c2a130604d35d40800000000000000
-      internalID: 5572030286274374765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_44"
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 72
-        width: 56
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa33a984938a784c0800000000000000
-      internalID: -4285271556435070038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_45"
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 72
-        width: 56
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 658251a19b7ec6820800000000000000
-      internalID: 2912957841194428502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_46"
-      rect:
-        serializedVersion: 2
-        x: 388
-        y: 72
-        width: 56
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 33f9da4defe8033b0800000000000000
-      internalID: -5534766716897353933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_47"
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 9
-        width: 52
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2416f80ba03596b0800000000000000
-      internalID: -5290268676128893907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_48"
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 12
-        width: 46
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: daa7702cd743075b0800000000000000
-      internalID: -5372736640722175315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_49"
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 8
-        width: 39
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5bf7428f5754aa60800000000000000
-      internalID: 7684362931920173916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_50"
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 10
-        width: 29
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 380260d44d27ff6a0800000000000000
-      internalID: -6413281088201416573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_51"
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 10
-        width: 28
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 030232f31c09043e0800000000000000
-      internalID: -2071496668928073680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: afb5f7229f4f65142b9b709cd125b2dc
     internalID: 0
     vertices: []
     indices: 
@@ -1421,7 +571,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_0": -7169424181749697617
       "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_1": 3205874616709076365
@@ -1433,44 +585,10 @@ TextureImporter:
       "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_15": 1607643392225687569
       "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_16": -2976897760999237724
       "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_17": -7732892232488795684
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_18": -3269140552738071384
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_19": 5604599575575042285
       "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_2": 3480158958353823101
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_20": -4969110259450463825
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_21": -3148507640657441713
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_22": -6337494262927999062
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_23": 3364100661426450075
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_24": 2938090586111304604
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_25": -4611269365097503247
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_26": 3841206959936770556
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_27": 1511733004679126387
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_28": -3450180539739720850
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_29": -3021415674703972453
       "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_3": 1549537405823323818
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_30": 95459234452808988
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_31": 6260165355114535712
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_32": -744652409692404978
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_33": -8940225682273323289
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_34": 3301394883453097061
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_35": 8967753561220178895
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_36": 232852859305191091
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_37": -7762905951165583907
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_38": -3926770839251021890
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_39": -227507427357297741
       "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_4": 7635439156777518031
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_40": 1498580700562928732
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_41": 1068730033546721891
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_42": 7092934608004316573
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_43": 5572030286274374765
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_44": -4285271556435070038
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_45": 2912957841194428502
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_46": -5534766716897353933
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_47": -5290268676128893907
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_48": -5372736640722175315
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_49": 7684362931920173916
       "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_5": 3098548164817724677
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_50": -6413281088201416573
-      "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_51": -2071496668928073680
       "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_6": 7558135648880732358
       "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_7": 1132939191721812038
       "Mu\xF1oz_Pardo_Elena_Enemigo2-Sheet_8": -2668641572998397372

@@ -23,9 +23,15 @@ public class ColdSystem2 : MonoBehaviour
     float damageTimer;
     int hearts;
     bool dead = false;
-
     float enemyDamageCooldown = 1f;
     float lastEnemyHitTime = -10f;
+
+
+    float healTimer;
+    public float healInterval = 10f;
+
+    [Header("Enemy Cold Damage")]
+    public float enemyColdDamagePercent = 0.25f;
 
     void Start()
     {
@@ -39,6 +45,7 @@ public class ColdSystem2 : MonoBehaviour
 
         HandleCold();
         HandleDamage();
+        HandleHealing();
 
         coldFillImage.fillAmount = coldAmount;
     }
@@ -71,6 +78,30 @@ public class ColdSystem2 : MonoBehaviour
         }
     }
 
+    void HandleHealing()
+    {
+        if (nearCheckpoint && coldAmount >= 1f && hearts < fullHearts.Length)
+        {
+            healTimer += Time.deltaTime;
+
+            if (healTimer >= healInterval)
+            {
+                GainHeart();
+                healTimer = 0f;
+            }
+        }
+        else
+        {
+            healTimer = 0;
+        }
+    }
+
+    void GainHeart()
+    {
+        fullHearts[hearts].enabled = true;
+        hearts++;
+    }
+
     void LoseHeart()
     {
         hearts--;
@@ -93,23 +124,34 @@ public class ColdSystem2 : MonoBehaviour
     {
         gameOverPanel.SetActive(true);
     }
-
-    private void OnColliderEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Enemy"))
+        if (collision.CompareTag("checkpoint"))
+            nearCheckpoint = true;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("checkpoint"))
+            nearCheckpoint = false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Enemy"))
         {
-            TakeDamageFromEnemy();
+            EnemyHit();
         }
     }
 
-    void TakeDamageFromEnemy()
+    public void EnemyHit()
     {
-        if (Time.time - lastEnemyHitTime >= enemyDamageCooldown && hearts > 0)
-        {
-            LoseHeart();
-            lastEnemyHitTime = Time.time;
-        }
+        if (Time.time - lastEnemyHitTime < enemyDamageCooldown) return;
+
+        lastEnemyHitTime = Time.time;
+
+        coldAmount -= enemyColdDamagePercent;
+        coldAmount = Mathf.Clamp01(coldAmount);
     }
-
-
 }
+
