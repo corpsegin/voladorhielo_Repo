@@ -219,7 +219,6 @@ GameObject:
   m_Component:
   - component: {fileID: 25594930}
   - component: {fileID: 25594932}
-  - component: {fileID: 25594933}
   m_Layer: 5
   m_Name: CorazonesRotos
   m_TagString: Untagged
@@ -257,19 +256,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25594929}
   m_CullTransparentMesh: 1
---- !u!114 &25594933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25594929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7a252320f5c0a240a41621581206ebf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  corazonesRotos: {fileID: 0}
 --- !u!1 &43699594
 GameObject:
   m_ObjectHideFlags: 0
