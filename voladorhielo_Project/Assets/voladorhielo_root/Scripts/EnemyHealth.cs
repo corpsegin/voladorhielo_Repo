@@ -14,13 +14,19 @@ public class EnemyHealth : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
         if (collision.gameObject.CompareTag("Attack"))
         {
             TimesInteracted++;
+            anim.SetTrigger("Attacked");
+
+            if (TimesInteracted >= neededTimesInteracted)
+            {
+                anim.SetTrigger("Defeat");
+                anim.SetTrigger("getkey");
+                StartCoroutine(Activate());
+            }
         }
-
-        enemy();
-
     }
 
     void enemy()
