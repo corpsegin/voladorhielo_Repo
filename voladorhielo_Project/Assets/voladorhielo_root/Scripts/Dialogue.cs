@@ -45,7 +45,6 @@ public class Dialogue : MonoBehaviour
         [HideInInspector] public bool played;
     }
 
-    
 
     public void Interact()
     {
@@ -155,7 +154,8 @@ public class Dialogue : MonoBehaviour
             willObject.SetActive(false);
 
         }
-    }
+    }  
+
 
     void Update()
     {
