@@ -5,7 +5,6 @@ public class PauseMenuManager : MonoBehaviour
 {
     public GameObject pauseButton;
     public GameObject pausePanel;
-    public GameObject container;
     public void PauseGame()
     {
         Time.timeScale = 0;

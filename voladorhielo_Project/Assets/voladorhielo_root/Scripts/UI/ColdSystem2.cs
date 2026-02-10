@@ -35,6 +35,7 @@ public class ColdSystem2 : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1;
         hearts = fullHearts.Length;
         gameOverPanel.SetActive(false);
     }
@@ -122,6 +123,7 @@ public class ColdSystem2 : MonoBehaviour
 
     void ShowGameOver()
     {
+        Time.timeScale = 0;
         gameOverPanel.SetActive(true);
     }
     private void OnTriggerEnter2D(Collider2D collision)
