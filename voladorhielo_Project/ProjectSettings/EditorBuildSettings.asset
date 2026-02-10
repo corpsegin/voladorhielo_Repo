@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/voladorhielo_root/Scenes/SCN_OptionsMenu.unity
     guid: 20b474a0af9c375429f36bb1fb727aca
   - enabled: 1
-    path: Assets/voladorhielo_root/Scenes/SampleScene.unity
+    path: Assets/voladorhielo_root/Scenes/BIEN_Eiden_test.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/voladorhielo_root/Scenes/Marta-test.unity
