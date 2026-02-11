@@ -31,7 +31,7 @@ public class ColdSystem2 : MonoBehaviour
     public float healInterval = 10f;
 
     [Header("Enemy Cold Damage")]
-    public float enemyColdDamagePercent = 0.25f;
+    public float enemyColdDamagePercent = 0.15f;
 
     void Start()
     {

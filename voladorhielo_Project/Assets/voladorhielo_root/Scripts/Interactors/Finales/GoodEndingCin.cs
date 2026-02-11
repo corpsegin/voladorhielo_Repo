@@ -1,7 +1,9 @@
-﻿using UnityEngine;
-using UnityEngine.Video;
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using System.Collections;
+using UnityEngine.Video;
+
 
 
 public class GoodEndingCin : MonoBehaviour
@@ -18,6 +20,7 @@ public class GoodEndingCin : MonoBehaviour
     void Start()
     {
         StartCoroutine(PlaySunCinematic());
+        video.loopPointReached += OnVideoFinished;
     }
 
     IEnumerator PlaySunCinematic()
@@ -45,4 +48,15 @@ public class GoodEndingCin : MonoBehaviour
             yield return null;
         }
     }
+    void OnVideoFinished(VideoPlayer vp)
+    {
+        finalFrame.SetActive(true);
+        gameObject.SetActive(false);
+    }
+
+    public void LoadScene(int sceneToLoad)
+    {
+        SceneManager.LoadScene(sceneToLoad);
+    }
+
 }
