@@ -774,7 +774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - haz encontrado una escalera
+  - has encontrado una escalera
   dialoguePanel: {fileID: 1874872471}
   dialogueText: {fileID: 239332431}
   characterAnimator: {fileID: 0}
@@ -5489,15 +5489,11 @@ PrefabInstance:
       value: GameUI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 221530166776164022, guid: 35ef9c482ae162946b1c249d3da06b96, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35ef9c482ae162946b1c249d3da06b96, type: 3}
---- !u!1 &293060648 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 221530166776164022, guid: 35ef9c482ae162946b1c249d3da06b96, type: 3}
-  m_PrefabInstance: {fileID: 293060647}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &293060649 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1261164909343667929, guid: 35ef9c482ae162946b1c249d3da06b96, type: 3}
@@ -5633,7 +5629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bea7b5a68ed82340834e0d4dd9185c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseButton: {fileID: 293060648}
+  pauseButton: {fileID: 0}
   pausePanel: {fileID: 615719645}
 --- !u!114 &347963357
 MonoBehaviour:
@@ -5943,7 +5939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - haz encontrado una escalera
+  - has encontrado una escalera
   dialoguePanel: {fileID: 1874872471}
   dialogueText: {fileID: 239332431}
   characterAnimator: {fileID: 0}
@@ -68278,7 +68274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - haz encontrado una escalera
+  - has encontrado una escalera
   dialoguePanel: {fileID: 1874872471}
   dialogueText: {fileID: 239332431}
   characterAnimator: {fileID: 0}
